@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.home{
+    height: 700px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url(images/home.jpg);
+    background-size: cover;
+}
+.home h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 300px;
+}
+.home img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.home button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+}
+.home button a{
+    text-decoration: none;
+}
+.home button:hover{
+    background-color: transparent;
+}
+.home .btn{
+    margin-left: 950px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+.home p{
+    margin-left: 900px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    column-gap: 100px;
+    border-bottom: gray 0.5px solid;
+    align-items: center;
+}
+
+
+.nav1 li{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(71, 71, 134);
+}
+.nav2{
+    align-content: center;
+    cursor: pointer;
+    }
+    span i{
+        margin-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    input[type]{
+        height: 30px;
+        width: 200px;
+        border:rgb(71, 71, 134) solid ;
+        border-radius: 15px;
+        padding-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    .nav1 li a:hover, .nav2 span i:hover{
+        color: red;
+    }
+    .shop1{
+        height: 1000px;
+        width: 100%;
+        background-color: white;
+    }
+    .shop1 button{
+        margin-top: 100px;
+        width: 100px;
+        font-size: 11px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .shop1 p{
+        margin-left: 1200px; 
+    }
+    .image1{
+        float: left;
+        margin: 20px;
+        text-align: center;
+    }
+    .image2{
+        float: left;
+        margin: 20px;
+        text-align: center;
+    }
+    .image3{
+        margin: 20px;
+        text-align: center;
+    }
+    .shop2{
+        height: 800px;
+        width: 100%;
+    }
+    .shop2{
+        height: 800px;
+        width: 100%;
+    }
+    .shop2 button{
+        margin-top: 100px;
+        width: 100px;
+        font-size: 11px;
+        height: 30px;
+        border-radius: 10px;
+    } 
+    .shop2 p{
+        margin-left: 1200px; 
+    }
+    .image4{
+        float: left;
+        margin: 10px;
+        text-align: center;
+    }
+    .image5{
+        float: left;
+        margin: 10px;
+        text-align: center;
+    }
+    .image6{
+        float: left;
+        margin: 10px;
+        text-align: center;
+    }
+    .image7{
+        margin: 10px;
+        text-align: center;
+        border: 1px grey solid;
+        height: 400px;
+        width: 280px;
+        margin-left: 1010px;
+    }
+    .shop3 {
+        height: 1000px;
+        width: 100%;
+    }
+    .shop3 .page{
+        float: left;
+        text-align: center;
+        margin: 17px;
+    }
+    .shop4{
+        height: 700px;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .shop4 .page1{
+        height: 500px;
+        width: 600px;
+        background-image: url(images/shop\ comfort.jpg);
+        background-size: cover;
+        float: left;
+        margin: 20px;
+    }
+    .shop4 .page2{
+        height: 500px;
+        width: 600px;
+        background-image: url(images/explore\ fusion.jpg);
+        background-size: cover;
+        float: left;
+        margin: 20px;
+    }
+    .shop4 button a{
+        text-decoration: none;
+    }
+    .shop5{
+        height: 500px;
+        width: 100%;
+        background-color: gainsboro;
+        margin-top: 100px;
+    }
+    .shop5 .page3{
+        float: left;
+        text-align: center;
+        margin-top: 80px;
+        padding: 50px;
+    }
+    .shop6{
+        height: 500px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .shop6 .page4{
+        float: left;
+    }
+    .shop7{
+        height: 700px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .shop7 .page5{
+        float: left;
+        height: 500px;
+        width: 350px;
+        background-image: url(images/style.jpg);
+        background-size: cover;
+        text-align: center;
+        margin: 40px;
+    }
+    .shop7 .page6{
+        float: left;
+        height: 500px;
+        width: 350px;
+        background-image: url(images/fashion.jpg);
+        background-size: cover;
+        text-align: center;
+        margin: 40px;
+    }
+    .shop7 .page7{
+        float: left;
+        height: 500px;
+        width: 350px;
+        background-image: url(images/sesional.jpg);
+        background-size: cover;
+        text-align: center;
+        margin: 40px;
+    }
+    .shop8 img{
+        float: left;
+        margin: 5px;
+    }
+    .shop8 {
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .content{
+        height: 350px;
+        width: 100%;
+        display: flex;
+    margin-top: 30px;
+        column-gap: 380px;
+    }
+    .cont1{
+        margin-left: 50px;
+    }
+    .cont2{
+        display: flex;
+        margin-top: 70px;
+        }
+    .cont2 input {
+       border: 0px;
+       width: 300px;
+       height: 50px;
+       }
+       input[type]{
+        font-size: 15px;
+        border-bottom: gray solid;
+       }
+    .cont2 a{
+        text-decoration: none;
+        margin-left:-65px;
+    }
+    
+    .cont3{
+        display: flex;
+        margin-left:10px;
+        }
+    .cont3 a{
+        text-decoration: none;
+        color: rgb(116, 112, 112);
+        padding:10px;
+    }
+    .cont3 a:hover{
+        color: red;
+    }
+    .cont3 li{
+        list-style-type: none;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    .copyright{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgb(85, 81, 81);
+    }
+    
+    

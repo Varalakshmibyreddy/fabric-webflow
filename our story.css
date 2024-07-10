@@ -1,0 +1,223 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    border: black solid;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    column-gap: 100px;
+    border-bottom: gray 0.5px solid;
+    align-items: center;
+}
+
+
+.nav1 li{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(71, 71, 134);
+}
+.nav2{
+    align-content: center;
+    cursor: pointer;
+    }
+    span i{
+        margin-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    input[type]{
+        height: 30px;
+        width: 200px;
+        border:rgb(71, 71, 134) solid ;
+        border-radius: 15px;
+        padding-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    .nav1 li a:hover, .nav2 span i:hover{
+        color: red;
+    }
+
+    
+    .aboutus{
+        height: 900px;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-bottom: gray 0.5px solid;
+        
+    }
+    .aboutus h6{
+        height: 40px;
+        width: 150px;
+        border: black solid;
+        text-align: center;
+        align-content: center;
+        border-radius: 10px;
+    
+    }
+    .aboutus1{
+        display: flex;
+        column-gap: 80px;
+    }
+    .aboutus2{
+        width: 50%;
+    }
+    .aboutus button{
+        text-decoration: none;
+        font-size: 20px;
+        border: none;
+        border-bottom:0.5px black solid;
+        cursor: pointer;
+    }
+     .aboutus1 button a{
+        text-decoration: none;
+        color: black;
+    }
+    .aboutus1 button a:hover{
+color:red;
+    }
+    .collections{
+        height: 550px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        column-gap: 40px;
+        padding-left: 20px;
+    
+    }
+    .collections1{
+        align-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 17px;
+        border-bottom:0.5px black solid;
+    }
+
+    .collections1 button{
+        padding: 17px 30px;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 18px;
+        
+        
+    }
+    button a{
+        color: rgb(231, 23, 23);
+        text-decoration: none;
+        
+        
+    }
+    button:hover ,button a:hover{
+        color: rgb(62, 60, 221);
+        background-color: rgb(122, 112, 112);
+    }
+    .explore{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        border-bottom:0.5px black solid;
+    }
+    .explore1{
+        width: 50%;
+        color: rgb(66, 64, 64);
+    }
+    .explore2{
+        width: 50%;
+        font-size: 18px;
+        margin-top: 30px;
+        color: #575656;
+    }
+    .explore2 a{
+        text-decoration: none;
+        color: black;
+        border: black solid;
+        padding: 15px 20px;
+        border-radius: 10px;
+        
+    }
+    .explore2 a:hover{
+        color: white;
+        background-color: black;
+    }
+    .team{
+        height: 630px;
+        width: 100%;
+        background-color: rgb(241, 230, 214);
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .team h5{
+        height: 35px;
+        width: 110px;
+        align-content: center;
+        text-align: center;
+        border: black 0.5px solid;
+        border-radius: 10px;
+    }
+
+    .team1{
+        display: flex;
+        column-gap: 20px;
+
+    }
+    .team1A{
+        height: 450px;
+        width: 295px;
+        border: black 0.5px solid;
+        
+    }
+    .team img{
+        height: 320px;
+        width: 290px;
+    }
+    .team1A h6{
+        font-size: 14px;
+    }
+    .icons{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        column-gap: 50px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .icons1, .icons2,.icons3{
+        height: 350px;
+        width: 350px;
+        border:  black solid;
+        background-color: rgb(243, 242, 240);
+        border-radius: 15px;
+        text-align: center;
+        align-content: center;
+        
+    }
+    .icons img{
+        height: 100px;
+    }
+    .icons h{
+font-size: 25px;
+    }
+    .icons p{
+        font-size: 18px;
+        color: rgb(73, 71, 71);
+    }
