@@ -3,17 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ourstory.css">
+    <title>shop</title>
     <style>
-         * {
-    margin: 0;
-    padding: 0;
+        *{
+    margin: 0 px;
+    padding: 0 px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins',sans-serif;
 }
-.main{
+
+.header{
+    height: 30px;
+    width:98%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.navbar{
+    height: 80px;
+    width: 98%;
+    display: flex;
+    column-gap:50px;
+    border-bottom: gray 0.5px solid;
+    align-items: center;
+}
+
+
+.nav1 li{
+    display: inline-block;
+    margin-left:5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(71, 71, 134);
+}
+.nav2{
+    align-content: center;
+    cursor: pointer;
+    }
+    span i{
+        margin-left:10px;
+        color: rgb(71, 71, 134);
+    }
+    input[type]{
+        height: 30px;
+        width: 200px;
+        border:rgb(71, 71, 134) solid ;
+        border-radius: 15px;
+        padding-left:5px;
+        color: rgb(71, 71, 134);
+    }
+    .nav1 li a:hover, .nav2 span i:hover{
+        color: red;
+        
+    }
+
+    .main{
     margin-left:10px;
     margin-top:30px;
 
@@ -29,6 +81,7 @@
     margin-top: 20px;
     
 }
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -61,13 +114,41 @@
 .image6 {
     text-align: center;
     margin-top:40px;
-    padding-right:654px;
 
 }
+.image7 {
+    text-align: center;
+    margin-top:40px;
 
+}
+.image8 {
+    text-align: center;
+    margin-top:40px;
+
+}
+.image9 {
+    text-align: center;
+    margin-top:40px;
+
+}
+.image10 {
+    text-align: center;
+    margin-top:40px;
+
+}
+.image11 {
+    text-align: center;
+    margin-top:40px;
+
+}
+.image12 {
+    text-align: center;
+    margin-top:40px;
+
+}
 .but button{
    height:40px;
-   width:100px;
+   width:80px;
    margin-left:47%;
    margin-top:30px;
    font-size:20px;
@@ -124,70 +205,28 @@ p{
 .nav1{
     margin-left: 110px;
 }
-.header{
-    height: 30px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-}
-.navbar{
-    height: 80px;
-    width: 100%;
-    display: flex;
-    column-gap: 100px;
-    border-bottom: gray 0.5px solid;
-    align-items: center;
-}
-
-
-.nav1 li{
-    display: inline-block;
-    margin-left: 22px;
-    font-size: 22px;
-    cursor: pointer;
-}
-.navbar a{
+.nav a{
     text-decoration: none;
-    color: rgb(71, 71, 134);
 }
-.nav2{
-    align-content: center;
-    cursor: pointer;
-    }
-    span i{
-        margin-left: 20px;
-        color: rgb(71, 71, 134);
-    }
-    input[type]{
-        height: 30px;
-        width: 200px;
-        border:rgb(71, 71, 134) solid ;
-        border-radius: 15px;
-        padding-left: 20px;
-        color: rgb(71, 71, 134);
-    }
-    .nav1 li a:hover, .nav2 span i:hover{
-        color: red;
-    }
-
-
-
-    </style>
+.nav1 a{
+    text-decoration: none;
+}
+</style>
 </head>
 <body>
-    <div class="shop">
 
+
+
+    <div class="container">
         <div class="header">
             <p>SHOP NOW FOR A WARDROBE UPGRADE – FABRIK'S LATEST ARRIVALS!</p>
         </div>
         <div class="navbar">
             <div class="nav1">
                 <ul>
-                    <li><a href="home.html"><h1>FABRIK</h1></a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="our story.html">Our Story</a></li>
+                    <li><a href=""><h1>FABRIK</h1></a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Our Story</a></li>
                     <li><a href="">Collection</a></li>
                     <li><a href="">Blogs</a></li>
                     <li><a href="">Reviews</a></li>
@@ -207,97 +246,132 @@ p{
                 </ul>
             </div>
         </div>
-
-        <div class="main">
-            <h4>+NEW TRENDING</h4>
-               <h1>Latest Products</h1>
+</div>
+<div class="shop">
+    <div class="main">
+        <h4>+NEW TRENDING</h4>
+           <h1>Latest Products</h1>
+</div>
+  <div class="cards">
+    <div class="image1">
+        <img src="images/l1.jpg" height="450px" width="300px">
+        <h3>Fairy Tale Fantasy Gown</h3>
+        <p>$ 699.99 USD</p>
     </div>
 
-    <div class="cards">
-        <div class="image1">
-            <img src="../bag13.jpg" height="450px" width="300px">
-            <h3>Fairy Tale Fantasy Gown</h3>
-            <p>$ 699.99 USD</p>
-        </div>
-
-        <div class="image2">
-            <img src="../bag14.jpg" height="450px" width="300px">
-            <h3>Street Style Bomber Jacket</h3>
-            <p>$ 79.00 USD</p>
-        </div>
-
-        <div class="image3">
-            <img src="../bag15.jpg" height="450px" width="300px">
-            <h3>Denim High-Waisted Skirt</h3>
-            <p>$ 4.00 USD</p>
-        </div>
-
-        <div class="image4">
-            <img src="../bag16.avif" height="450px" width="300px">
-            <h3>Unwind in Style Loose Fit Shirt</h3>
-            <p>$ 79.99 USD</p>
-        </div>
-
-        <div class="image5">
-            <img src="../bag17.avif" height="450px" width="300px">
-            <h3>Whimsical Wrap Crop Top</h3>
-            <p>$ 110.99 USD</p>
-        </div>
-
-        <div class="image6">
-            <img src="../bag18.avif" height="450px" width="300px">
-            <h3>Sculpted Satin Sheath Gown</h3>
-            <p>$ 99.86 USD</p>
-        </div>
+    <div class="image2">
+        <img src="images/l2.jpg" height="450px" width="300px">
+        <h3>Street Style Bomber Jacket</h3>
+        <p>$ 79.00 USD</p>
     </div>
 
-    <div class="but">
-        <a href="Shop.html"><button>Previous</button></a>
+    <div class="image3">
+        <img src="images/l3.jpg" height="450px" width="300px">
+        <h3>Denim High-Waisted Skirt</h3>
+        <p>$ 4.00 USD</p>
+    </div>
+
+    <div class="image4">
+        <img src="images/l4.jpg" height="450px" width="300px">
+        <h3>Unwind in Style Loose Fit Shirt</h3>
+        <p>$ 79.99 USD</p>
+    </div>
+
+    <div class="image5">
+        <img src="images/l5.jpg" height="450px" width="300px">
+        <h3>Whimsical Wrap Crop Top</h3>
+        <p>$ 110.99 USD</p>
+    </div>
+
+    <div class="image6">
+        <img src="images/l6.jpg" height="450px" width="300px">
+        <h3>Sculpted Satin Sheath Gown</h3>
+        <p>$ 99.86 USD</p>
+    </div>
+
+    <div class="image7">
+        <img src="images/l7.jpg" height="450px" width="300px">
+        <h3>Fireside Flannel Shirt Dress</h3>
+        <p>$ 129.99 USD</p>
+    </div>
+
+    <div class="image8">
+        <img src="images/l8.jpg" height="450px" width="300px">
+        <h3>Urban Relaxed Denim Shirt</h3>
+        <p>$ 89.60 USD</p>
+    </div>
+
+    <div class="image9">
+        <img src="images/l9.jpg" height="450px" width="300px">
+        <h3>Double-Breasted Blazer</h3>
+        <p>$ 119.50 USD</p>
+    </div>
+
+    <div class="image10">
+        <img src="images/l10.jpg" height="450px" width="300px">
+        <h3>Midnight Magic Velvet Gown</h3>
+        <p>$ 110.99 USD</p>
+    </div>
+
+    <div class="image11">
+        <img src="images/l11.jpg" height="450px" width="300px">
+        <h3>Nebula Dream Maxi Skirt</h3>
+        <p>$ 176.99 USD</p>
+    </div>
+
+    <div class="image12">
+        <img src="images/l12.jpg" height="450px" width="300px">
+        <h3>Glacier Front Sweater Dress</h3>
+        <p>$ 99.00 USD</p>
+    </div>
+  </div>
+
+  <div class="but">
+    <a href="shopimg.html"><button>Next</button></a>
+  </div>
+  <hr>
+
+
+  <div class="content">
+    <div class="cont1">
+        <h1>Subscribe for elegance,<br>
+             exclusivity, and endless style<br>
+             stories</h1>
+
+      <div class="cont2">
+    
+        <input type="text" placeholder="Enter your email">
+        <a href="#">Submit</a>
       </div>
-      <hr>
+  
 
+ <p><i class="fa-solid fa-square-check"></i> I here by agree to the terms & conditions of fabrik</p>
+</div>
 
-      <div class="content">
-        <div class="cont1">
-            <h1>Subscribe for elegance,<br>
-                 exclusivity, and endless style<br>
-                 stories</h1>
-
-          <div class="cont2">
-        
-            <input type="text" placeholder="Enter your email">
-            <a href="#">Submit</a>
-          </div>
-      
-
-     <p><i class="fa-solid fa-square-check"></i> I here by agree to the terms & conditions of fabrik</p>
+<div class="cont3">
+    <div class="nav">
+       <a href="#"> About us</a><br>
+        <a href="#">Categories</a><br>
+        <a href="#">Shopaaaa</a><br>
+        <a href="#">FAQ</a><br>
+        <a href="#">Contact us</a><br>
+       <a href="#"> Blogs</a><br>
+      <a  href="#"> Reviews</a><br>
     </div>
-
-    <div class="cont3">
-        <div class="nav">
-           <a href="#"> About us</a><br>
-            <a href="#">Categories</a><br>
-            <a href="#">Shopaaaa</a><br>
-            <a href="#">FAQ</a><br>
-            <a href="#">Contact us</a><br>
-           <a href="#"> Blogs</a><br>
-          <a  href="#"> Reviews</a><br>
-        </div>
-        <div class="nav1">
-           <a href="#"> Licensing</a><br>
-            <a href="#">Changelog</a><br>
-             <a href="#">Return Policy</a><br>
-              <a href="#">Privacy Policy</a><br>
-                <a href="#">Terms & Conditions</a><br>
-        </div>
-        
+    <div class="nav1">
+       <a href="#"> Licensing</a><br>
+        <a href="#">Changelog</a><br>
+         <a href="#">Return Policy</a><br>
+          <a href="#">Privacy Policy</a><br>
+            <a href="#">Terms & Conditions</a><br>
     </div>
     
-    </div>
-    <hr>
-    <p>© 2024 Fabrik. All rights reserved.</p>  
-    
+</div>
 
-    </div>
+</div>
+<hr>
+<p>© 2024 Fabrik. All rights reserved.</p>  
+
+</div>
 </body>
 </html>

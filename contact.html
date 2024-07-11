@@ -6,8 +6,284 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="our story.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="ourstory.css">
     <title>our stoty</title>
+    <style>
+        *{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    border: black solid;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -16px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    column-gap: 100px;
+    border-bottom: gray 0.5px solid;
+    align-items: center;
+}
+
+
+.nav1 li{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(71, 71, 134);
+}
+.nav2{
+    align-content: center;
+    cursor: pointer;
+    }
+    span i{
+        margin-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    input{
+        height: 30px;
+        width: 200px;
+        border:rgb(71, 71, 134) solid ;
+        border-radius: 15px;
+        padding-left: 20px;
+        color: rgb(71, 71, 134);
+    }
+    .nav1 li a:hover, .nav2 span i:hover{
+        color: red;
+        
+    }
+
+    .main{
+    margin-left:10px;
+    margin-top:100px;
+
+}
+.main h4{
+    border:1px solid black;
+    height:20px;
+    width: 160px;
+    border-radius:25px;
+    text-align: center;
+}
+.main h1{
+    margin-top: 20px;
+}
+
+
+.form1 form input{
+    background: none;
+    outline: none;
+    color: black;
+    margin: 10px;
+    border-radius: none;
+    border: none;
+    width:270px;
+}
+textarea{
+    outline: none;
+    margin-top: 50px;
+    width: 600px;
+    border: none;
+}
+.form3{
+    margin: 20px;
+    border-bottom: 1px solid black;
+
+}
+.form2{
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin: 20px;
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius:6px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.contect{
+    display: flex;
+    justify-content: space-between;
+}
+.lock{
+    margin-left:677px;
+}
+
+.faq{
+    height: 950px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: gray 0.5px solid;
+    margin-top:100px ;
+
+   }
+   .faq1{
+    height: 150px;
+    width: 100%;
+    
+   }
+   .faq1 h5{
+    height:20px;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    border: black 0.5px solid;
+    border-radius: 15px;
+}
+.faq2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+
+.accordion{  
+    height: 750px;          
+    width: 700px;
+    padding-top:40px;
+
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-bottom: gray 0.5px solid;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:white;
+    cursor: pointer;
+    transition: background-color 3s;
+}
+
+
+.accordion-symbol{
+    font-size: 35px;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color:white;
+    border-top: 1px solid, white;
+}
+
+.accordion-content p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(180deg);
+}
+
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-header h2{
+    font-size: 17px;
+}
+
+.content{
+    height: 350px;
+    width: 100%;
+    display: flex;
+margin-top: 30px;
+    column-gap: 380px;
+}
+.cont1{
+    margin-left: 50px;
+}
+.cont2{
+    display: flex;
+    margin-top: 70px;
+    }
+.cont2 input {
+   border: 0px;
+   width: 300px;
+   height: 50px;
+   }
+   input[type]{
+    font-size: 15px;
+    border-bottom: gray solid;
+   }
+.cont2 a{
+    text-decoration: none;
+    margin-left:-65px;
+}
+
+.cont3{
+    display: flex;
+    margin-left:10px;
+    }
+.cont3 a{
+    text-decoration: none;
+    color: rgb(116, 112, 112);
+    padding:10px;
+}
+.cont3 a:hover{
+    color: red;
+}
+.cont3 li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.copyright{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(85, 81, 81);
+}
+
+
+    </style>
 </head>
 <body>
     <div class="container">
@@ -39,154 +315,47 @@
                 </ul>
             </div>
         </div>
-<div class="aboutus">
-    <h6><i class="fa-sharp fa-solid fa-plus"></i>  OUR STORY</h6>
-    <h1 style="font-size: 40px;">About us</h1>
-    <div class="aboutus1">
-        <div class="aboutus2">
-            <h5 style="font-size: 25px;">Where Creativity Meets Craftsmanship</h5>
-            <p style="font-size: 20px;">Our mission is to provide a diverse range of high-quality, sustainable, and on-trend fashion, ensuring that everyone can find their perfect look within our collections.</p><br>
-            <a href="#">Shop Now <i class="fa-solid fa-right-to-bracket"></i></a> <br><br><br>
-        
-            <img src="images/our pag.jpg" height="350px" width="300px" zoom="20px">
-        </div>
-        <div class="aboutus3">
-            <img src="images/ourpage.jpg" height="700px" width="90%">
-        </div>
     </div>
-</div>
-
-<div class="collections">
-    <img src="images/our page1.jpg" height="470px" width="470px">
-    <div class="collections1">
-        <p>Fabrik presents casual elegance that seamlessly blends with your everyday life. Elevate your everyday wardrobe with styles that are the part.</p>
-        <p>Experience the innovation of everyday chic at Fabrik. Our latest casual collection is a testament to cutting-edge styling that seamlessly integrates into your daily life. Explore the fusion of trendsetting designs and comfort.</p><br>
-    <a href="collection.html">View Collection</a>
-    </div>
-    
-</div>
-<div class="explore">
-    <div class="explore1">
-    <h4 style="font-size: 30px;">Explore how Fabrik goes beyond fashion trends to prioritize quality.</h4>
-    </div>
-    <div class="explore2">
-        <p>Introducing our new collection at Fabrik – where each piece evokes a distinct mood. Immerse yourself in the new feel, embracing a range of vibes that resonate with your emotions. Discover fashion that speaks to your soul.</p>
-        <p>Experience the intersection of style and comfort with our daily trend updates at Fabrik. Elevate your wardrobe with our elegant and effortlessly chic collections. Just life, just your feeling – find your unique style journey with Fabrik. Imbibe a new feel with each piece in our collection.</p>
-        <p>From the bustling design studios to the skilled hands in our manufacturing units, Fabrik represents the synergy of creativity and craftsmanship.</p><br><br>
-        <a href="collection.html">Explore Collection</a>
-    </div>
-</div>
-
-<div class="team">
-    <h5><i class="fa-sharp fa-solid fa-plus"></i> MEMBERS</h5>
-    <h4 style="font-size: 30px;">Meet Our Team</h4>
-    <div class="team1">
-        <div class="team1A">
-            <img src="images/our pg1.jpg">
-            <h6>Marvin McKinney</h6>
-            <p>Founder & CEO</p>
-        </div>
-        <div class="team1A">
-            <img src="images/our pg2.jpg">
-            <h6>Darlene Robertson</h6>
-            <p>Porduction Manager</p>
-        </div>
-
-        <div class="team1A">
-            <img src="images/our pg3.jpg">
-            <h6>Leslie Alexander</h6>
-            <p>Marketing Director</p>
-        </div>
-
-        <div class="team1A">
-            <img src="images/our pg4.jpg">
-            <h6>Ronald Richards</h6>
-            <p>Sales Manager</p>
-        </div>
-
-    </div>
-</div>
-<div class="icons">
-    <div class="icons1">
-        <img src="images/hand.svg"><br><br>
-        <h>Handcrafted Perfection</h>
-        <p>Where our skilled artisans breathe life into each creation, ensuring quality and beauty.</p>
-    </div>
-    <div class="icons2">
-        <img src="images/global.svg"><br><br>
-        <h>Global Craftmanship</h>
-    <p>Fabrik embraces diversity with size-inclusive designs that cater to every body shape.</p>   
+<div class="main">
+          <h4>+GET IN TOUCH </h4>
+           <h1>Contact us</h1>
  </div>
-    <div class="icons3">
-<img src="images/size.svg"><br><br>
-        <h>Size-inclusive Design</h>
-        <p>Fabrik embraces diversity with size-inclusive designs that cater to every body shape.</p>
-    </div>
-</div>
 
-<div class="blogs">
-    <div class="blogs1">
-        <h5><i class="fa-sharp fa-solid fa-plus"></i> OUR BLOGS</h5>
-    <h4 style="font-size:30px;">Articles & resources</h4>
+ <div class="contect">
+    <div class="form1">
+        <form>
+            <div class="form2">
+                <label for="Name">First Name</label><br>
+                <input type="text" id="Name" name="Name" placeholder="">
+            </div>
+            <div class="form2">
+                <label for="LName">Last Name</label><br>
+                <input type="text" id="LName" name="LName" placeholder="">
+            </div>
+            <div class="form2">
+                <label for="Email">Email Address</label><br>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <div class="form2">
+                <label for="Number">Phone Number</label><br>
+                <input type="text" name="Number" id="Number">
+            </div>
+            <div class="form3">
+                <label for="Message">Message</label><br>
+                <textarea name="Message" id="Message"></textarea>
+            </div>
+        </form>
+        <button>Submit Now</button>
     </div>
-    <a href="#">View All <i class="fa-solid fa-right-to-bracket"></i></a>
-</div>
-
-
-<div class="categories1">
-    <div class="parent1">
-        <div class="childs bg-ones">
-            <p><a href="men.html">Style Tips</a></p>
-        </div>
-        <h6>Enter the impressive fashion show world.</h6>
-        <a href="styletips.html">Read More  <i class="fa-solid fa-right-to-bracket"></i></a>
+    <img src="images/contact.jpg" width="800px" height="500px"><br>
     </div>
-
-    <div class="parent1">
-        <div class="childs bg-twos">
-            <p><a href="men.html">Fashion Trends</a></p>
-        </div>
-        <h6>How fashion trends stand the test of time.</h6>
-        <a href="styletips.html">Read More  <i class="fa-solid fa-right-to-bracket"></i></a>
-    </div>
-
-    <div class="parent1">
-        <div class="childs bg-threes">
-            <p><a href="men.html">Seasonal Styles</a></p>
-        </div>
-        <h6>Embrass with the seasonal style of fabric.</h6>
-        <a href="styletips.html">Read More  <i class="fa-solid fa-right-to-bracket"></i></a>
-    </div>
+    <div class="lock">
+        <span class="material-symbols-outlined">location_on </span> 6391 Elgin St. Celina, Delaware 10299<br><br>
+        <span class="material-symbols-outlined">mail</span>info@example.com
 </div>
 
 
-<div class="testimonial">
-    <div class="testimonial1">
-        <h5><i class="fa-sharp fa-solid fa-plus"></i> TESTIMONIALS</h5>
-    <h4 style="font-size:30px;">Happy Customers</h4>
-    </div>
-    <div class="testimonial2">
-        <div class="testimonial2A">
-            <img src="images/happy.jpg" height="330px" width="250px">
-        </div>
-        <div class="testimonial2B">
-            <p style="font-size: 20px;">The winter coat I bought is not only stylish but also incredibly warm. The website is easy to navigate & the free shipping is a fantastic perk.</p>
-        <h6 style="font-size: 20px;margin-top: 150px;">Ralph Edwards</h6>
-        <p>Dallas, US</p>
-        <a href="#">More Reviews <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"> </i></a>
-
-        </div>
-
-        <div class="testimonial2C">
-            <h1 style="font-size: 40px;">99%</h1>
-            <h6 style="font-size: 20px;">Strategic Design</h6>
-            <p>Experience designs that redefine creativity and set your brand apart.</p>
-           
-        </div>
-    </div>
-</div>
-
-<div class="faq">
+ <div class="faq">
     <div class="faq1">
         <h5><i class="fa-sharp fa-solid fa-plus"></i> FAQ'S</h5>
     <h4 style="font-size:30px;">Frequently Asked Questions</h4>
@@ -264,12 +433,11 @@
                     <p> We accept major credit cards, PayPal, and other secure payment methods. At checkout, you can select your preferred payment option.</p>
                 </div>
             </div>
-         </div>
+         </div>
 </div>
 </div>
 
-
-    <div class="content">
+<div class="content">
         <div class="cont1">
             <p style="font-size: 30px; color: rgb(107, 104, 104);">Subscribe for elegance,<br>
                  exclusivity, and endless style<br>
@@ -312,6 +480,27 @@
     <p>© 2024 Fabrik. All rights reserved.</p>  
     <p>Designed by Nixar. Powered by Webflow.</p>
     </div>
-    <script src="faq.js"></script>
-</body>
-</html>
+ 
+
+<script>
+    function toggleAccordion(element) {
+    const accordionHeader = element;
+    const accordionContent = accordionHeader.nextElementSibling;
+
+    if (accordionContent.style.display === "block") {
+        accordionContent.style.display = "none";
+        accordionHeader.classList.remove("active");
+    } else {
+        const allContents = document.querySelectorAll(".accordion-content");
+        const allHeaders = document.querySelectorAll(".accordion-header");
+
+        allContents.forEach(content => content.style.display = "none");
+        allHeaders.forEach(header => header.classList.remove("active"));
+
+        accordionContent.style.display = "block";
+        accordionHeader.classList.add("active");
+    }
+}
+</script>
+ </body>
+ </html>
